@@ -1,0 +1,184 @@
+@media (min-width: 750px) {
+  .spinner-container {
+
+    .spinner {
+      width: 8rem;
+      height: 8rem;
+      margin: 8% auto;
+    }
+  
+    p {
+      font-size: 2.2rem;
+    }
+  }
+  .mobile-menu {
+    &-about-me {
+      .reset {
+        width: 12%;
+        height: 12%;
+      }
+      .text-container {
+        top: 63%;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+      }
+      &-background {
+        width: 100vw;
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+    &-contact {
+      .reset {
+        width: 12%;
+        height: 12%;
+      }
+      &-background {
+        width: 100vw;
+
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+    &-portfolio {
+      .reset {
+        width: 12%;
+        height: 12%;
+      }
+      &-background {
+        width: 100vw;
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
+
+      .text-container {
+        hr {
+          border: 2px solid #29217d;
+        }
+      }
+
+      .project {
+        &-img {
+          width: 20rem;
+          height: 20rem;
+        }
+
+        h3 {
+          font-size: 2.2rem;
+        }
+
+        &-description {
+          p {
+            font-size: 1.5rem;
+          }
+
+          code {
+            font-size: 2.2rem;
+          }
+
+          .technologies {
+            img {
+              width: 4rem;
+              height: 3.9rem;
+            }
+          }
+        }
+      }
+    }
+    &-what-i-do {
+      .reset {
+        width: 12%;
+        height: 12%;
+      }
+      .text-container {
+        line-height: 2.5rem;
+
+        hr {
+          width: 60%;
+          border: 2px solid #29217d;
+        }
+
+        .description {
+          font-size: 1.8rem;
+        }
+
+        .heading {
+          font-size: 2.2rem;
+        }
+
+        p {
+          font-size: 1.8rem;
+          color: rgba(#29217d, 80%);
+        }
+      }
+
+      &-background {
+        width: 100vw;
+
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+    &-social {
+      .reset {
+        width: 12%;
+        height: 12%;
+      }
+
+      .social-container {
+        top: 25%;
+
+        .social-link {
+          p {
+            font-size: 2.2rem;
+          }
+        }
+      }
+
+      &-background {
+        width: 100vw;
+
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
+    }
+
+    form {
+      .message {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 40%;
+
+        textarea {
+          font-size: 1.6rem;
+        }
+      }
+
+      .submit {
+        input {
+          font-size: 3rem;
+          text-align: center;
+          padding: 0;
+        }
+      }
+      label {
+        font-size: 1.8rem;
+      }
+      input {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

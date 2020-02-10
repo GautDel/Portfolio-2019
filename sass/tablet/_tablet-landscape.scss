@@ -1,0 +1,188 @@
+@media (min-width: 1000px) and (orientation: landscape) {
+  .content {
+    .container {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      .img-container {
+        left: 3%;
+        width: 25%;
+      }
+      .text-container {
+        p {
+          font-size: 1.8rem;
+          color: rgba(#29217d, 80%);
+        }
+      }
+    }
+    .contact-container {
+      h1 {
+        font-size: 2.5rem;
+      }
+      form {
+        .left-container {
+          justify-content: flex-start;
+        }
+
+        .right-container {
+          justify-content: flex-start;
+          textarea {
+            font-size: 1.6rem;
+            height: 52%;
+          }
+
+          .submit {
+            font-size: 2.5rem;
+          }
+        }
+
+        label {
+          font-size: 1.6rem;
+        }
+        input {
+          height: 10%;
+          font-size: 1.6rem;
+        }
+      }
+    }
+
+    .social-container {
+      align-items: center;
+      width: 60%;
+      height: 80%;
+      margin-top: 10%;
+
+      .social-link {
+        img {
+          width: 30%;
+        }
+
+        p {
+          font-weight: bold;
+          font-size: 2.2rem;
+          margin-left: 5%;
+        }
+      }
+    }
+
+    .what-i-do-container {
+      line-height: 2.5rem;
+      padding-bottom: 10%;
+
+      .description {
+        font-size: 1.6rem;
+      }
+
+      .heading {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 1.6rem;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+
+    .project-container {
+      hr {
+        width: 25%;
+        border: 2px solid #29217d;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      .sub-heading {
+        color: rgba(#29217d, 80%);
+        font-size: 1.6rem;
+      }
+    }
+
+    .project {
+      margin: 10% 0;
+      &-img {
+        width: 30%;
+        height: 32vh;
+      }
+
+      &-description {
+        .heading {
+          font-size: 2.2rem;
+        }
+
+        p {
+          font-size: 1.8rem;
+        }
+        .code {
+          
+          code {
+            width: 30%;
+            margin-right: 5%;
+            padding: 2% 3%;
+          }
+        }
+
+        .technologies {
+          img {
+            width: 3rem;
+            height: 2.9rem;
+          }
+        }
+      }
+    }
+  }
+
+  .cloud-buttons-container {
+    .about-me {
+      width: 30%;
+      height: 30%;
+    }
+
+    .what-i-do {
+      width: 30%;
+      height: 30%;
+    }
+
+    .contact {
+      width: 30%;
+      height: 30%;
+      left: 20%;
+    }
+
+    .portfolio {
+      width: 30%;
+      height: 30%;
+    }
+
+    .social {
+      width: 30%;
+      height: 30%;
+    }
+  }
+
+  .body-image {
+    .logo-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 31%;
+      margin: auto;
+      z-index: 1;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
